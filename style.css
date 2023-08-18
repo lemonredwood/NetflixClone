@@ -1,0 +1,109 @@
+html{
+
+    background-image: url(Images/bgimg.jpg);   
+    background-size:100%;
+}
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 100vw;
+    height:100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.9) 100%);
+    background-size: cover;
+}
+#c1{
+    float: left; 
+    display: block;
+    margin-left: 135px;
+}
+#c2{
+    float: right;
+    display: block;
+    margin-right: 8%;
+    margin-top: 20px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#s1{
+    background-color: black;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    border-radius: 5px;
+    color:white;
+    height: 3rem;
+    width: 9rem;
+    margin-right: 1rem;
+    font-weight: 900;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: white;
+    text-align: center;
+}
+#bt2{
+    background-color: red;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white;
+    height: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+    font-weight:900 ;
+    border-radius: 7px;
+    border-color: red;
+    border-width: 1px;
+    margin: 5px;
+    margin-right: 0.75;
+}
+#ds{
+    height: 100px;
+    margin-bottom: 200px;
+}
+#d1{
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    text-align: center;
+    display: block;
+    
+}
+#d1>h1{
+    font-size: 3.5rem;
+    text-align: center;
+    display: block;
+    font-weight: 900;
+}
+#d1>p{
+    font-size:24px;
+}
+#d2{
+    text-align: center;
+    color: white;   
+}
+#d2>form>h3{
+    font-size: 20px;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+}
+#d2>form>label{
+    background-color: red;
+}
+#i1{
+    width: 23rem;
+    height:2.8rem;
+    font-size: 1rem;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+    color:white;
+    background-color:rgba(0,0,0,0.6) ;
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#bt3{
+    width: 13rem;
+    height:3rem;
+    background-color: red;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: red;
+    color: white;
+    padding: 5px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
